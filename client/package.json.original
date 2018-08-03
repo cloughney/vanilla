@@ -1,0 +1,19 @@
+{
+  "name": "vanilla",
+  "version": "0.0.1",
+  "description": "A simple, no-frills recipe manager.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloughney/vanilla.git"
+  },
+  "author": "Chris Loughney <me@chrisloughney.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloughney/vanilla/issues"
+  },
+  "homepage": "https://github.com/cloughney/vanilla#readme"
+}
