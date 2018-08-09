@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core'
-import { Observable, of, from, forkJoin } from 'rxjs'
-import { flatMap, concatAll } from 'rxjs/operators'
+import { Observable, of, forkJoin } from 'rxjs'
+import { flatMap } from 'rxjs/operators'
 
 import { Recipe } from './recipe'
 
@@ -60,6 +60,10 @@ abstract class GenericRepository<TKey extends string | number, TModel> {
 		this.allKeys = this.allKeys.concat([ key ]);
 
 		return of([ key, model ] as [TKey, TModel]);
+	}
+
+	public update(key: TKey, model: TModel): Observable<[TKey, TModel]> {
+		throw new Error('Not implemented!');
 	}
 
 	public remove(key: TKey): Observable<[TKey, TModel]> {

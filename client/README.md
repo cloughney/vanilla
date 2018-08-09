@@ -1,6 +1,6 @@
 # Vanilla
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+Vanilla is a simple, no frills recipe manager progressive web app.
 
 ## Development server
 

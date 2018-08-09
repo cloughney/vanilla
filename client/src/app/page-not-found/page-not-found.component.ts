@@ -1,10 +1,10 @@
 import { Component } from '@angular/core'
 
 @Component({
-	template: `
-		<div>
+	template:
+		`<div>
 			<h2>Page Not Found</h2>
-		</div>
-	`
+			<a routerLink="/home">Return to Recipes</a>
+		</div>`
 })
 export class PageNotFoundComponent { }
