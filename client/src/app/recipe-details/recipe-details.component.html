@@ -1,9 +1,9 @@
 <article>
 	<button routerLink="/gallery">Back to Gallery</button>
-	<h1 class="title">{{ title }}</h1>
-	<sub class="description">{{ description }}</sub>
-	<sub class="yield">{{ yield }}</sub>
-	<div class="ingredient-group" *ngFor="let group of ingredients">
+	<h1 class="title">{{ recipe.title }}</h1>
+	<sub class="description">{{ recipe.description }}</sub>
+	<sub class="yield">{{ recipe.yield }}</sub>
+	<div class="ingredient-group" *ngFor="let group of recipe.ingredients">
 		<h2>{{ group.name }}</h2>
 		<ul>
 			<li *ngFor="let ingredient of group.ingredients">{{ ingredient.name }}</li>

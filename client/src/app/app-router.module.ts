@@ -6,6 +6,8 @@ import { RecipeGalleryComponent } from './recipe-gallery/recipe-gallery.componen
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component'
 
 const routes: Route[] = [
+	{ path: 'recipe/new', component: RecipeDetailsComponent },
+	{ path: 'recipe/edit/:slug', component: RecipeDetailsComponent },
 	{ path: 'recipe/:slug', component: RecipeDetailsComponent },
 	{ path: 'gallery', component: RecipeGalleryComponent },
 	{ path: '', pathMatch: 'full', redirectTo: '/gallery' },

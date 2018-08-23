@@ -1,7 +1,7 @@
 {
   "name": "vanilla",
   "version": "0.0.1",
-  "description": "A simple, no frills recipe manager.",
+  "description": "A simple, no frills recipe management progressive web app.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

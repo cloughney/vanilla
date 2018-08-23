@@ -6,6 +6,9 @@ import { RecipeRepository } from '../recipe.repository';
 	template: `
 		<div>
 			Recipes
+			<div>
+				<a routerLink="/recipe/new">Add Recipe</a>
+			</div>
 			<ul>
 				<li *ngFor="let recipe of visibleRecipes">
 					<a routerLink="/recipe/{{ recipe.slug }}">{{ recipe.title }}</a>

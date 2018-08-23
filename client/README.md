@@ -1,6 +1,6 @@
 # Vanilla
 
-Vanilla is a simple, no frills recipe manager progressive web app.
+Vanilla is a simple, no frills recipe management progressive web app.
 
 ## Development server
 
