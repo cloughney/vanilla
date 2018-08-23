@@ -11,7 +11,7 @@ import { RecipeRepository } from '../recipe.repository';
 			</div>
 			<ul>
 				<li *ngFor="let recipe of visibleRecipes">
-					<a routerLink="/recipe/{{ recipe.slug }}">{{ recipe.title }}</a>
+					<a routerLink="/recipe/view/{{ recipe.slug }}">{{ recipe.title }}</a>
 				</li>
 			</ul>
 		</div>

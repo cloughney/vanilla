@@ -1,5 +1,6 @@
 <article>
-	<button routerLink="/gallery">Back to Gallery</button>
+	<button class="btn btn-default" routerLink="/gallery">Back to Gallery</button>
+	<button class="btn btn-default" routerLink="/recipe/edit/{{ recipe.slug }}">Edit</button>
 	<h1 class="title">{{ recipe.title }}</h1>
 	<sub class="description">{{ recipe.description }}</sub>
 	<sub class="yield">{{ recipe.yield }}</sub>
